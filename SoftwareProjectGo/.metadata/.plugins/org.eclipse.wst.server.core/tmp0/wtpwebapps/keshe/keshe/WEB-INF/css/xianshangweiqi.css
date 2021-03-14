@@ -1,0 +1,56 @@
+body {
+    font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+*{
+	margin:0;
+	padding:0;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00925F;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.container{
+	width:1000px;
+	border:1px solid #2CAD6F;
+	margin:0px auto;
+}
+li{list-style:none;}
+#header, #main, #footer {
+    /*宽度，水平居中对齐*/
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*页面头部信息*/
+#header {
+    height: 35px;
+    background-color: #2CAD6F;
+    float:left;
+}
+#header ul li{
+	float:left;
+}
+#header li a{
+	color:white;
+	font-size:20px;
+	border-right:14px;
+	padding:30px 20px;
+	margin-left:50px;
+}
+#header li a:hover{
+	color:yellow;
+}

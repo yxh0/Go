@@ -1,0 +1,157 @@
+@charset "UTF-8";
+.header {
+    position: relative;
+    height: 105px;
+}
+.logo {
+	position: absolute;
+	width: 105px;
+	height: 85px;
+}
+.logo img {
+	width: 100%;
+	height: 100%;
+}
+.login {
+	margin-left: 950px;
+	margin-top: 30px;
+	position: absolute;
+	font: 17px Microsoft YaHei;
+	text-align: center;
+}
+.login li a{
+	color: black;
+}
+.login li a:hover {
+	color: #0000ff;
+}
+
+.newscont1 {
+	float: left;
+	height: 350px;
+	width: 300px;
+	
+}
+
+.newscont2 {
+	float: right;
+	height: 600px;
+	width: 780px;
+	 background-color:white;
+}
+
+.newsimg1 {
+	float: left;
+	height: 80px;
+	width: 250px;
+	margin-right: 10px;
+}
+.newsimg1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.newsimg2 {
+	float: left;
+	height: 83px;
+	width: 253px;
+	margin-right: 10px;
+	
+}
+.newsimg2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.main-content1 p{
+    font-size: 14px;
+    color: #393939;
+    text-align: center;
+    margin-top: 120px;
+    margin-right:50px;
+}
+
+.text {
+    width: 320px;
+    height: 45px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    margin-top: 20px;
+    transition: border 0.3s linear;
+    margin-left:3px;
+    margin-bottom: 20px;
+}
+.newscont2 .cont .mmm{
+	font-size:26px;
+	color:#8080ff;
+	margin-top:30px;
+}
+
+.newscont2 .cont .bbb{
+	font-size:20px;
+	color:#8080ff;
+	margin-top:10px;
+}
+.newscont2 .cont .ccc{
+	font-size:15px;
+	color:blcak;
+	margin-left:25px;
+}
+hr{
+	margin-top:10px;
+}
+.newscont2 .cont {
+	height: 40px;
+	line-height: 40px;
+	margin-left:30px;
+}
+.newscont2 .cont p{
+	font-size:15px;
+}
+.radio{
+	margin-left:30px;
+	margin-right:5px;
+}
+.newscont2 .cont .title
+{
+	font-size:100px;
+}
+.newscont2 .cont ul li{
+}
+
+.main-content5 {
+    width: 320px;
+    height: 45px;
+    border: 1px solid #E2E2E2;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    color: #fff;
+    background: #2CAD6F;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left:100px;
+}
+.newsimg3 {
+	height: 75px;
+	width: 80px;
+	margin-right: 10px;
+	margin-left:80px;
+	margin-bottom:20px;
+	
+}
+.newsimg3 img {
+	width: 100%;
+	height: 100%;
+}
+
+/*页面底部版权*/
+#footer p {
+    width: 250px;
+    font-size: 20px;
+    color: #7B7B7B;
+    margin: 60px auto;
+    
+}

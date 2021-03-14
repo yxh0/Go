@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<web-app>
+<servlet>				
+	<servlet-name>loginServlet</servlet-name>		
+	<servlet-class>servlet.loginServlet</servlet-class>	
+</servlet>	
+<servlet-mapping>		
+	<servlet-name>loginServlet</servlet-name>		
+	<url-pattern>/loginServlet</url-pattern>	
+</servlet-mapping>
+	
+<servlet>				
+	<servlet-name>addUserServlet</servlet-name>		
+	<servlet-class>servlet.addUserServlet</servlet-class>	
+</servlet>	
+<servlet-mapping>		
+	<servlet-name>addUserServlet</servlet-name>		
+	<url-pattern>/addUserServlet</url-pattern>	
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>message</servlet-name>
+    <servlet-class>myservlet.control.Message_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>message</servlet-name>
+   <url-pattern>/message</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>dengluServlet</servlet-name>
+    <servlet-class>myservlet.control.denglu_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>dengluServlet</servlet-name>
+   <url-pattern>/dengluServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>

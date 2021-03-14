@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.main {
+	height:500px;
+    margin:5px auto;
+    width: 900px;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+}
+.border {
+	width: 900px;
+    height:80px;
+    border-bottom:1px solid #E1E1E1;
+    text-align:center;
+    font-size: 24px;
+    color:#393939;
+    line-height:80px;
+}
+form{
+    width: 400px;
+    min-height: 202px;
+    margin:30px auto;
+}
+.code{
+	margin-top: 20px;
+    width: 400px;
+    height: 45px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #eee;
+    box-sizing: border-box;   
+    transition: border 0.3s linear;
+}
+.lf{
+    margin-top:20px;
+    margin-bottom:5px;
+}
+.lf a{
+    color: #603000;
+    text-decoration: none;
+}
+.lf a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.now-register{
+    margin-top: 25px;
+    width: 400px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #8f6a40;
+    cursor: pointer;
+}

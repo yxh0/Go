@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.big {
+	margin-top: 20px;
+}
+.self {
+	float: left;
+	margin-right: 30px;
+}
+.big .self h4,
+.big .blogg h4 {
+	width: 250px;
+	border-bottom: solid 1px #603000;
+	margin-bottom: 15px;
+	font-size: 15px;
+	weight: 500;
+	color: #8f6a40;
+}
+.big .self button {
+	width: 120px;
+    height: 30px;
+    margin: 10px 65px;
+    border: 1px solid #E2E2E2;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    color: #000;
+    background: #ededf1;
+}
+.big .self .info {
+	margin-top: 15px;
+	margin-left: 75px;
+}
+.big .self .info p{
+	font-size: 14px;
+	weight: 500;
+	color: #909090;
+}
+.blogg {
+	float: left;
+}
+.big .blogg h4,
+.big .blogg .cont {
+	width: 820px;
+}
+.big .blogg .cont h2 {
+	margin: 5px;
+}
+.big .blogg .cont a {
+	color: #000;
+}
+.big .blogg .cont a:hover {
+	color: #ebc21f;
+}
+.big .blogg .cont p {
+	margin-bottom: 35px;
+	color: #8a8a8a;
+}
+.big .blogg .cont .people {
+	font-size: 13px;
+}

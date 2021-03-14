@@ -1,0 +1,63 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>博客页面</title>
+<link rel="stylesheet" href="css/init.css">
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+	<div class="header w">
+		<div class="logo">
+			<img src="images/logo.jpg" alt="" />
+		</div>
+		<div class="login">
+			<ul>
+				<li>
+					<a href="login.jsp">登录</a> |
+					<a href="register.jsp">注册</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 导航栏 -->
+	<div class="nav w">
+		<div class="container">
+			<ul class="left">
+		    	<li><a href="#" >首页</a></li>
+		    	<li><a href="#" >博客</a></li>
+		    	<li><a href="#" >论坛</a></li>
+		    	<li><a href="#" >棋事</a></li>
+		    	<li><a href="#" >线上围棋</a></li>
+		    	<li><a href="#" >帮助</a></li>
+		    	<li><a href="#" >充值</a></li>
+			</ul>
+  		</div>
+	</div>
+	<div class="big w">
+		<div class="self">
+			<h4>我的</h4>
+			<button>我要发博</button><br>
+			<button>我的博文</button><br>
+			<div class="info">
+				<p>个人积分：</p>
+				<p>访问量：</p>
+			</div>
+		</div>
+		<div class="blogg">
+			<h4>博文</h4>
+			<div class="cont">
+				<h2><a href="">一个新的围棋规则(建议),"先行进攻"围棋规则</a></h2>
+				<span class="people">id    0 阅读 | 0 点赞</span>
+				<p>"先行进攻"围棋规则 提出一个新的围棋规则(建议),"先行进攻"围棋规则,可供棋友在对局中选择试用。 一、什么是"先行进攻"规则？ 所谓"先行进攻"规则就是规定先行的一方，在开始的几手棋内必须包含一手进攻性质的棋。</p>
+				<h2><a href="">一个新的围棋规则(建议),"先行进攻"围棋规则</a></h2>
+				<span class="people">id    0 阅读 | 0 点赞</span>
+				<p>"先行进攻"围棋规则 提出一个新的围棋规则(建议),"先行进攻"围棋规则,可供棋友在对局中选择试用。 一、什么是"先行进攻"规则？ 所谓"先行进攻"规则就是规定先行的一方，在开始的几手棋内必须包含一手进攻性质的棋。</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

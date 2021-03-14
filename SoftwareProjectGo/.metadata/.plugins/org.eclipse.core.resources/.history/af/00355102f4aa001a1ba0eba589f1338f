@@ -1,0 +1,5 @@
+package myservlet.control;
+
+class blog_Servlet {
+
+}

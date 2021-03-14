@@ -1,0 +1,10 @@
+package myservlet.control;
+import mybean.data.My_Bean; //引入例子2中的Javabean模型
+import java.io.*;
+import java.sql.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+
+class blog_Servlet extends HttpServlet{
+
+}

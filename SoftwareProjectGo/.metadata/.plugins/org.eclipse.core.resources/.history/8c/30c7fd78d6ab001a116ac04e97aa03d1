@@ -1,0 +1,45 @@
+<%@ page contentType="text/html;charset=gb2312" %>
+<%@ page import="java.sql.*" %>
+<%@ page import="com.mysql.jdbc.ResultSet" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>博客发表成功!</title>
+<link rel="stylesheet" href="css/blogpostchenggong.css">
+</head>
+<body>
+	<center><a href="blog.jsp" >博客发表成功!<br>积分+1</a></center>
+	<%
+    	Connection con = null;
+    	PreparedStatement stmt = null;
+    	ResultSet rs = null;
+    	try
+		{
+    		con = JDBCUtils.getConnection();
+            String sql = "update chess_user set userjifen = userjifen+1 where user_name = testman";
+            stmt = con.prepareStatement(sql);
+            stmt.setString(1, newPassword);
+            stmt.setInt(2, id);
+			String uri= "jdbc:mysql://localhost:3306/weiqiluntan";
+            String user="root";
+            String password="0";
+            int result =stmt.executeUpdate();// 返回值代表收到影响的行数
+            if(result>0)
+			{
+                System.out.println("修改成功");
+            }
+            else {
+                System.out.println("修改失败");
+            }
+        }
+    	catch (Exception e)
+		{
+            e.printStackTrace();
+        }
+		finally {
+            JDBCUtils.close(rs, stmt, con);
+        }
+     %>
+</body>
+</html>

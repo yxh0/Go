@@ -1,0 +1,15 @@
+@charset "UTF-8";
+a{
+	line-height:200px;
+	text-align:center;
+	font-size:50px;
+	text-decoration: none;
+	color: #ff8000;
+}
+a:hover{
+	line-height:200px;
+	text-align:center;
+	font-size:60px;
+	text-decoration: none;
+	color: #ff0000;
+}

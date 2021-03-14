@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.n {
+	margin: 30px;
+}
+.n h1 {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #c0c0c0;
+	text-align: center;
+}
+.n h2 span {
+	margin-left: 20px;
+	text-align: left;
+	font-size: 13px;
+	color: #c0c0c0;
+}
+.n .text {
+	font-size: 15px;
+	text-indent: 25px
+}

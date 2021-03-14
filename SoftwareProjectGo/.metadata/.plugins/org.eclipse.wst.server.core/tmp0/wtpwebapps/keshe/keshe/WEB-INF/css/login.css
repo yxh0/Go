@@ -1,0 +1,84 @@
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+}
+/*页面主体部分样式*/
+.main {
+     height: 500px;
+     width: 400px;
+     min-height: 202px;
+ }
+.border{
+	width: 900px;
+    height:500px;
+    margin:10px auto;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+}
+form{
+    width: 400px;
+    min-height: 202px;
+    margin:13px auto;
+}
+.main-content1 p {
+    font-size: 14px;
+    color: #393939;
+    text-align: center;
+    margin-top: 30px;
+}
+.main-content4 {
+    text-align: right;
+    margin: 10px 0 20px 0;
+}
+/*按钮*/
+.main-content5 {
+	margin-top: 5px;
+    width: 400px;
+    height: 45px;
+    border: 1px solid #E2E2E2;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    color: #fff;  
+    cursor: pointer;
+    background-color: #8f6a40;
+}
+.main-content6 {
+    width: 400px;
+    height: 45px;
+    border: 1px solid #E2E2E2;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    color: #393939;
+    margin-top: 15px;
+    cursor: pointer;
+    display:block;
+}
+.inp{
+    margin-top:0px;
+}
+
+.text {
+    width: 400px;
+    height: 45px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    margin-top: 20px;
+    transition: border 0.3s linear;
+}
+.safe {
+    margin: 0 8px;
+}
+
+.safes {
+    color: #603000;
+    font-size: 14px;
+}
+
+

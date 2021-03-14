@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>myservlet.control.loginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>loginServlet</servlet-name>
+   <url-pattern>/loginServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>insertServlet</servlet-name>
+    <servlet-class>myservlet.control.insertyonghu_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>insertServlet</servlet-name>
+  <url-pattern>/keshe/insertServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>insertqishiServlet</servlet-name>
+    <servlet-class>myservlet.control.insertqishi_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>insertqishiServlet</servlet-name>
+  <url-pattern>/keshe/insertqishiServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>deleteqishiServlet</servlet-name>
+    <servlet-class>myservlet.control.deleteqishi_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>deleteqishiServlet</servlet-name>
+  <url-pattern>/keshe/deleteqishiServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>dengluServlet</servlet-name>
+    <servlet-class>myservlet.control.denglu_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>dengluServlet</servlet-name>
+  <url-pattern>/keshe/dengluServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>gdengluServlet</servlet-name>
+    <servlet-class>myservlet.control.guanliyuan_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>gdengluServlet</servlet-name>
+  <url-pattern>/keshe/gdengluServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>chongzhiServlet</servlet-name>
+    <servlet-class>myservlet.control.chongzhi_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>chongzhiServlet</servlet-name>
+  <url-pattern>/keshe/chongzhiServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>chaxunServlet</servlet-name>
+    <servlet-class>myservlet.control.chaxun_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>chaxunServlet</servlet-name>
+  <url-pattern>/keshe/chaxunServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>quanxianguanliServlet</servlet-name>
+    <servlet-class>myservlet.control.quanxianguanli_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>quanxianguanliServlet</servlet-name>
+  <url-pattern>/keshe/quanxianguanliServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>message</servlet-name>
+    <servlet-class>myservlet.control.Message_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>message</servlet-name>
+   <url-pattern>/keshe/message</url-pattern>
+</servlet-mapping>
+
+
+   <servlet>
+        <servlet-name>liuyanban</servlet-name>
+        <servlet-class>myservlet.control.Liuyanban_Servlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>liuyanban</servlet-name>
+       <url-pattern>/keshe/liuyanban</url-pattern>
+   </servlet-mapping>
+
+<servlet>
+    <servlet-name>queryByConditionServlet</servlet-name>
+    <servlet-class>myservlet.control.Example7_2_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>queryByConditionServlet</servlet-name>
+   <url-pattern>/keshe/queryByConditionServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>

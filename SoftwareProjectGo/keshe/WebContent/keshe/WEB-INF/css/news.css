@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.t {
+	margin-top: 25px;
+}
+.t thead th{
+	font-size: 14px;
+	color: #999;
+	margin-bottom: 10px;
+}
+.t thead .one {
+	width: 900px;
+	text-align: left;
+	border-bottom: solid 1px #603000;
+}
+.t thead .two {
+	width: 200px;
+	border-bottom: solid 1px #603000;
+}
+.t th a {
+	color: #000;
+}
+.t th a:hover {
+	color: #ebc21f;
+}
+.t table .thone {
+	text-align: left;
+	line-height: 45px;
+	weight: 400;
+	font-size: 17px;
+}
